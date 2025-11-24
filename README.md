@@ -38,3 +38,29 @@ dinosaurgame/
 ├── cactus3.png
 ├── game-over.png
 
+
+
+
+> ⚠️ All images must be inside the `img/` folder relative to `ChromeDinosaur.java`.  
+> The game loads them using:
+> ```java
+> new ImageIcon(getClass().getResource("./img/filename")).getImage();
+> ```
+
+---
+
+## 🚀 How to Run
+
+### Option 1 — Using IDE
+1. Open project in IntelliJ, VS Code, Eclipse, etc.
+2. Run `app.java`
+3. Window launches → Play!
+
+---
+
+### Option 2 — Using Terminal
+
+Compile:
+```bash
+javac app.java ChromeDinosaur.java
+
